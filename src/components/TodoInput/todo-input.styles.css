@@ -1,0 +1,43 @@
+.todo-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-input form {
+  width: 40%;
+  display: flex;
+}
+
+.todo-input form input {
+  flex: 3;
+  padding: 0.5rem;
+  border: 2px solid #f95700;
+  background: none;
+  color: white;
+}
+
+.todo-input form button {
+  flex: 1;
+  background-image: linear-gradient(to right, #d54723, #f95700);
+  color: white;
+  border: 1px solid #f95700;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.todo-input form button:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 500px) {
+  .todo-input form {
+    width: 80%;
+    display: flex;
+  }
+  .todo-input form button {
+    font-size: 0.8rem;
+  }
+}

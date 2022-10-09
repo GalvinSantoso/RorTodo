@@ -1,0 +1,30 @@
+.todo-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.todo-header h1 {
+  font-size: 3.5rem;
+  color: #d54800;
+}
+
+.todo-header h1 span {
+  color: white;
+}
+
+.todo-header p {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0.4rem 0;
+}
+
+@media screen and (max-width: 500px) {
+  .todo-header p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}
